@@ -43,10 +43,10 @@
 			<grid>											
 				<grid>										<!--Mode selector-->
 					<row>
-						<button text="⤹" ondown="down_f1" onup="up_f1"/>
+						<button text="⤸" ondown="down_f1" onup="up_f1"/>
 					</row>
 					<row>
-						<button text="⤸" ondown="down_f2" onup="up_f2"/>
+						<button text="⤹" ondown="down_f2" onup="up_f2"/>
 					</row>
 				</grid>
 				<grid>										<!--Radar selector-->
