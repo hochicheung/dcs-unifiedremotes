@@ -1,0 +1,274 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<layout>
+	<tabs>
+		<tab text="MFCD/UFC">
+			<row weight="1">											<!--MFCD TOP-->
+				<button text="□" ondown="down_mfcd_RT1" onup="up_mfcd_RT1"/>
+				<button text="□" ondown="down_mfcd_RT2" onup="up_mfcd_RT2"/>
+				<button text="□" ondown="down_mfcd_RT3" onup="up_mfcd_RT3"/>
+				<button text="□" ondown="down_mfcd_RT4" onup="up_mfcd_RT4"/>
+				<button text="□" ondown="down_mfcd_RT5" onup="up_mfcd_RT5"/>
+				<button text="□" ondown="down_mfcd_LT1" onup="up_mfcd_LT1"/>
+				<button text="□" ondown="down_mfcd_LT2" onup="up_mfcd_LT2"/>
+				<button text="□" ondown="down_mfcd_LT3" onup="up_mfcd_LT3"/>
+				<button text="□" ondown="down_mfcd_LT4" onup="up_mfcd_LT4"/>
+				<button text="□" ondown="down_mfcd_LT5" onup="up_mfcd_LT5"/>
+			</row>
+			<row weight="6">											<!--MID section-->
+				<grid weight="1">									<!--MFCD LEFT-->
+					<row>
+						<button text="□" ondown="down_mfcd_LL1" onup="up_mfcd_LL1"/>
+						<button text="□" ondown="down_mfcd_LR1" onup="up_mfcd_LR1"/>
+					</row>
+					<row>
+						<button text="□" ondown="down_mfcd_LL2" onup="up_mfcd_LL2"/>
+						<button text="□" ondown="down_mfcd_LR2" onup="up_mfcd_LR2"/>
+					</row>
+					<row>
+						<button text="□" ondown="down_mfcd_LL3" onup="up_mfcd_LL3"/>
+						<button text="□" ondown="down_mfcd_LR3" onup="up_mfcd_LR3"/>
+					</row>
+					<row>
+						<button text="□" ondown="down_mfcd_LL4" onup="up_mfcd_LL4"/>
+						<button text="□" ondown="down_mfcd_LR4" onup="up_mfcd_LR4"/>
+					</row>
+					<row>
+						<button text="□" ondown="down_mfcd_LL5" onup="up_mfcd_LL5"/>
+						<button text="□" ondown="down_mfcd_LR5" onup="up_mfcd_LR5"/>
+					</row>
+				</grid>
+				<grid weight="8">									<!--UFC-->
+					<row weight="6">									<!--numpad-->
+						<grid>
+							<row>
+								<button text="1" ondown="down_ufc_num1" onup="up_ufc_num1"/>
+								<button text="2" ondown="down_ufc_num2" onup="up_ufc_num2"/>
+								<button text="3" ondown="down_ufc_num3" onup="up_ufc_num3"/>
+								<button text="HACK" ondown="down_ufc_HACK" onup="up_ufc_HACK"/>
+								<button text="FUNC" ondown="down_ufc_FUNC" onup="up_ufc_FUNC"/>
+								<button text="ENT" ondown="down_ufc_ENT" onup="up_ufc_ENT"/>
+							</row>
+							<row>
+								<button text="4" ondown="down_ufc_num4" onup="up_ufc_num4"/>
+								<button text="5" ondown="down_ufc_num5" onup="up_ufc_num5"/>
+								<button text="6" ondown="down_ufc_num6" onup="up_ufc_num6"/>
+								<button text="0" ondown="down_ufc_num0" onup="up_ufc_num0"/>
+								<button text="LTR" ondown="down_ufc_LTR" onup="up_ufc_LTR"/>
+								<button text="MK" ondown="down_ufc_MK" onup="up_ufc_MK"/>
+							</row>
+							<row>
+								<button text="7" ondown="down_ufc_num7" onup="up_ufc_num7"/>
+								<button text="8" ondown="down_ufc_num8" onup="up_ufc_num8"/>
+								<button text="9" ondown="down_ufc_num9" onup="up_ufc_num9"/>
+								<button text="SPC" ondown="down_ufc_SPC" onup="up_ufc_SPC"/>
+								<button text="CLR" ondown="down_ufc_CLR" onup="up_ufc_CLR"/>
+								<button text="ALT" ondown="down_ufc_ALT" onup="up_ufc_ALT"/>
+							</row>
+						</grid>
+					</row>
+					<row weight="4">									<!--function-->
+						<grid>
+							<grid weight="1">						<!--STEER-->
+								<row>
+									<button text="▴" ondown="down_ufc_STEERUP" onup="up_ufc_STEERUP"/>
+								</row>
+								<row>
+									<button text="▾" ondown="down_ufc_STEERDOWN" onup="up_ufc_STEERDOWN"/>
+								</row>
+							</grid>
+							<grid weight="4">						<!--COM section-->
+								<row>
+									<button text="MASTER CAUTION" ondown="down_ufc_MASTER" onup="up_ufc_MASTER"/>
+								</row>
+								<row>
+									<button text="COM 1" ondown="down_ufc_COM1" onup="up_ufc_COM1"/>
+									<button text="COM SEC" ondown="down_ufc_COMSEC" onup="up_ufc_COMSEC"/>
+									<button text="IFF" ondown="down_ufc_IFF" onup="up_ufc_IFF"/>
+								</row>
+								<row>
+									<button text="COM 2" ondown="down_ufc_COM2" onup="up_ufc_COM2"/>
+									<button text="ECCM" ondown="down_ufc_ECCM" onup="up_ufc_ECCM"/>
+									<button text="IDM" ondown="down_ufc_IDM" onup="up_ufc_IDM"/>
+								</row>
+							</grid>
+							<grid weight="2">						<!--DATA SEL INTEN-->
+								<row>
+									<button text="▴" ondown="down_ufc_DATAUP" onup="up_ufc_DATAUP"/>
+									<button text="▴" ondown="down_ufc_SELUP" onup="up_ufc_SELUP"/>
+								</row>
+								<row>
+									<button text="▾" ondown="down_ufc_DATADOWN" onup="up_ufc_DATADOWN"/>
+									<button text="▾" ondown="down_ufc_SELDOWN" onup="up_ufc_SELDOWN"/>
+								</row>
+								<row>
+									<button text="◂" ondown="down_ufc_INTENLEFT" onup="up_ufc_INTENLEFT"/>
+									<button text="▸" ondown="down_ufc_INTENRIGHT" onup="up_ufc_INTENRIGHT"/>
+								</row>
+							</grid>
+							<grid weight="1">						<!--DEPR-->
+								<row>
+									<button text="▴" ondown="down_ufc_DEPRUP" onup="up_ufc_DEPRUP"/>
+								</row>
+								<row>
+									<button text="▾" ondown="down_ufc_DEPRDOWN" onup="up_ufc_DEPRDOWN"/>
+								</row>
+							</grid>
+						</grid>
+					</row>
+				</grid>
+				<grid weight="1">  								<!--MFCD RIGHT-->
+					<row>
+						<button text="□" ondown="down_mfcd_RL1" onup="up_mfcd_RL1"/>
+						<button text="□" ondown="down_mfcd_RR1" onup="up_mfcd_RR1"/>
+					</row>
+					<row>
+						<button text="□" ondown="down_mfcd_RL2" onup="up_mfcd_RL2"/>
+						<button text="□" ondown="down_mfcd_RR2" onup="up_mfcd_RR2"/>
+					</row>
+					<row>
+						<button text="□" ondown="down_mfcd_RL3" onup="up_mfcd_RL3"/>
+						<button text="□" ondown="down_mfcd_RR3" onup="up_mfcd_RR3"/>
+					</row>
+					<row>
+						<button text="□" ondown="down_mfcd_RL4" onup="up_mfcd_RL4"/>
+						<button text="□" ondown="down_mfcd_RR4" onup="up_mfcd_RR4"/>
+					</row>
+					<row>
+						<button text="□" ondown="down_mfcd_RL5" onup="up_mfcd_RL5"/>
+						<button text="□" ondown="down_mfcd_RR5" onup="up_mfcd_RR5"/>
+					</row>
+				</grid>
+			</row>
+			<row weight="1">											<!--MFCD BOTTOM-->
+				<button text="□" ondown="down_mfcd_LB1" onup="up_mfcd_LB1"/>
+				<button text="□" ondown="down_mfcd_LB2" onup="up_mfcd_LB2"/>
+				<button text="□" ondown="down_mfcd_LB3" onup="up_mfcd_LB3"/>
+				<button text="□" ondown="down_mfcd_LB4" onup="up_mfcd_LB4"/>
+				<button text="□" ondown="down_mfcd_LB5" onup="up_mfcd_LB5"/>
+				<button text="□" ondown="down_mfcd_RB1" onup="up_mfcd_RB1"/>
+				<button text="□" ondown="down_mfcd_RB2" onup="up_mfcd_RB2"/>
+				<button text="□" ondown="down_mfcd_RB3" onup="up_mfcd_RB3"/>
+				<button text="□" ondown="down_mfcd_RB4" onup="up_mfcd_RB4"/>
+				<button text="□" ondown="down_mfcd_RB5" onup="up_mfcd_RB5"/>
+			</row>
+		</tab>
+		<tab text="CDU">
+			<grid weight="1">										<!--LEFT LSK-->
+				<row>
+					<button text="→" ondown="down_ufc_L3" onup="up_ufc_L3"/>
+				</row>
+				<row>
+					<button text="→" ondown="down_ufc_L5" onup="up_ufc_L5"/>
+				</row>
+				<row>
+					<button text="→" ondown="down_ufc_L7" onup="up_ufc_L7"/>
+				</row>
+				<row>
+					<button text="→" ondown="down_ufc_L9" onup="up_ufc_L9"/>
+				</row>
+			</grid>
+			<grid weight="9"> 										<!--MID section-->
+				<row weight="1"> 									<!--Pages row-->
+					<button text="SYS" ondown="down_cdu_SYS" onup="up_cdu_SYS"/>
+					<button text="NAV" ondown="down_cdu_NAV" onup="up_cdu_NAV"/>
+					<button text="WP" ondown="down_cdu_WP" onup="up_cdu_WP"/>
+					<button text="OSET" ondown="down_cdu_OSET" onup="up_cdu_OSET"/>
+					<button text="FPM" ondown="down_cdu_FPM" onup="up_cdu_FPM"/>
+					<button text="PREV" ondown="down_cdu_PREV" onup="up_cdu_PREV"/>
+					<button text="DIM" ondown="down_cdu_DIM" onup="up_cdu_DIM"/>
+					<button text="BRT" ondown="down_cdu_BRT" onup="up_cdu_BRT"/>
+				</row>
+				<row weight="8">										<!--CDU input row-->
+					<grid weight="4">								<!--Numpad-->
+						<row>
+							<button text="1" ondown="down_cdu_num1" onup="up_cdu_num1"/>
+							<button text="2" ondown="down_cdu_num2" onup="up_cdu_num2"/>
+							<button text="3" ondown="down_cdu_num3" onup="up_cdu_num3"/>
+						</row>
+						<row>
+							<button text="4" ondown="down_cdu_num4" onup="up_cdu_num4"/>
+							<button text="5" ondown="down_cdu_num5" onup="up_cdu_num5"/>
+							<button text="6" ondown="down_cdu_num6" onup="up_cdu_num6"/>
+						</row>
+						<row>
+							<button text="7" ondown="down_cdu_num7" onup="up_cdu_num7"/>
+							<button text="8" ondown="down_cdu_num8" onup="up_cdu_num8"/>
+							<button text="9" ondown="down_cdu_num9" onup="up_cdu_num9"/>
+						</row>
+						<row>
+							<button text="·" ondown="down_cdu_numDEC" onup="up_cdu_numDEC"/>
+							<button text="0" ondown="down_cdu_num0" onup="up_cdu_num0"/>
+							<button text="/" ondown="down_cdu_numSLS" onup="up_cdu_numSLS"/>
+						</row>
+					</grid>
+					<grid weight="6">								<!--Letters-->
+						<row>
+							<button text="A" ondown="down_cdu_A" onup="up_cdu_A"/>
+							<button text="B" ondown="down_cdu_B" onup="up_cdu_B"/>
+							<button text="C" ondown="down_cdu_C" onup="up_cdu_C"/>
+							<button text="D" ondown="down_cdu_D" onup="up_cdu_D"/>
+							<button text="E" ondown="down_cdu_E" onup="up_cdu_E"/>
+							<button text="F" ondown="down_cdu_F" onup="up_cdu_F"/>
+						</row>
+						<row>
+							<button text="G" ondown="down_cdu_G" onup="up_cdu_G"/>
+							<button text="H" ondown="down_cdu_H" onup="up_cdu_H"/>
+							<button text="I" ondown="down_cdu_I" onup="up_cdu_I"/>
+							<button text="J" ondown="down_cdu_J" onup="up_cdu_J"/>
+							<button text="K" ondown="down_cdu_K" onup="up_cdu_K"/>
+							<button text="L" ondown="down_cdu_L" onup="up_cdu_L"/>
+						</row>
+						<row>
+							<button text="M" ondown="down_cdu_M" onup="up_cdu_M"/>
+							<button text="N" ondown="down_cdu_N" onup="up_cdu_N"/>
+							<button text="O" ondown="down_cdu_O" onup="up_cdu_O"/>
+							<button text="P" ondown="down_cdu_P" onup="up_cdu_P"/>
+							<button text="Q" ondown="down_cdu_Q" onup="up_cdu_Q"/>
+							<button text="R" ondown="down_cdu_R" onup="up_cdu_R"/>
+						</row>
+						<row>
+							<button text="S" ondown="down_cdu_S" onup="up_cdu_S"/>
+							<button text="T" ondown="down_cdu_T" onup="up_cdu_T"/>
+							<button text="U" ondown="down_cdu_U" onup="up_cdu_U"/>
+							<button text="V" ondown="down_cdu_V" onup="up_cdu_V"/>
+							<button text="W" ondown="down_cdu_W" onup="up_cdu_W"/>
+							<button text="X" ondown="down_cdu_X" onup="up_cdu_X"/>
+						</row>
+						<row>
+							<button text="Y" ondown="down_cdu_Y" onup="up_cdu_Y"/>
+							<button text="Z" ondown="down_cdu_Z" onup="up_cdu_Z"/>
+							<button text="BCK" ondown="down_cdu_BCK" onup="up_cdu_BCK"/>
+							<button text="SPC" ondown="down_cdu_SPC" onup="up_cdu_SPC"/>
+							<button text="CLR" ondown="down_cdu_CLR" onup="up_cdu_CLR"/>
+							<button text="FA" ondown="down_cdu_FA" onup="up_cdu_FA"/>
+						</row>
+					</grid>
+				</row>
+				<row weight="1">										<!--Function Row-->
+					<button text="G" ondown="down_cdu_PGG" onup="up_cdu_PGG"/>
+					<button text="P" ondown="down_cdu_PGP" onup="up_cdu_PGP"/>
+					<button text="●" ondown="down_cdu_DOT" onup="up_cdu_DOT"/>
+					<button text="MK" ondown="down_cdu_MK" onup="up_cdu_MK"/>
+					<button text="⤹" ondown="down_cdu_CCW" onup="up_cdu_CCW"/>
+					<button text="⤸" ondown="down_cdu_CW" onup="up_cdu_CW"/>
+					<button text="−" ondown="down_cdu_MINUS" onup="up_cdu_MINUS"/>
+					<button text="+" ondown="down_cdu_PLUS" onup="up_cdu_PLUS"/>
+				</row>
+			</grid>
+			<grid weight="1">										<!--RIGHT LSK-->
+				<row>
+					<button text="←" ondown="down_ufc_R3" onup="up_ufc_R3"/>
+				</row>
+				<row>
+					<button text="←" ondown="down_ufc_R5" onup="up_ufc_R5"/>
+				</row>
+				<row>
+					<button text="←" ondown="down_ufc_R7" onup="up_ufc_R7"/>
+				</row>
+				<row>
+					<button text="←" ondown="down_ufc_R9" onup="up_ufc_R9"/>
+				</row>
+			</grid>
+		</tab>
+	</tabs>
+</layout>

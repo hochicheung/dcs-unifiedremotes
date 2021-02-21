@@ -1,0 +1,24 @@
+#+title: F/A-18C Hornet UFC Remote
+[[file:fa18c-ufc.png]]
+
+* Buttons
+
+** Numpad
+	 
+   - 0-10 numbers
+
+   - CLR and ENT
+
+** ODU Options
+
+   - 5 buttons
+
+** Radio Control and misc
+
+   - 4 button channel control
+
+   - 2 misc buttons
+
+** Function Row
+
+   - 7 buttons

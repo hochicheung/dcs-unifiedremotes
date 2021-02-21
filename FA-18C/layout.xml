@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	<row weight="4"> 												<!--Top Row-->
+		<grid weight="1">											  <!--COM1 side-->
+			<row>
+				<button text="I/P" onup="miscIP_up" ondown="miscIP_down"/>
+			</row>
+			<row>
+				<button text="1↑"  onup="radioCOM1UP_up" ondown="radioCOM1UP_down"/>
+			</row>
+			<row>
+				<button text="1↓"  onup="radioCOM1DN_up" ondown="radioCOM1DN_down"/>
+			</row>
+		</grid>
+		<grid weight="3">												<!--Numpad-->
+			<row>
+				<button text="1" onup="num1_up" ondown="num1_down"/>
+				<button text="2" onup="num2_up" ondown="num2_down"/>
+				<button text="3" onup="num3_up" ondown="num3_down"/>
+			</row>
+			<row>
+				<button text="4" onup="num4_up" ondown="num4_down"/>
+				<button text="5" onup="num5_up" ondown="num5_down"/>
+				<button text="6" onup="num6_up" ondown="num6_down"/>
+			</row>
+			<row>
+				<button text="7" onup="num7_up" ondown="num7_down"/>
+				<button text="8" onup="num8_up" ondown="num8_down"/>
+				<button text="9" onup="num9_up" ondown="num9_down"/>
+			</row>
+			<row>
+				<button text="CLR" onup="numCLR_up" ondown="numCLR_down"/>
+				<button text="0"   onup="num0_up" ondown="num0_down"/>
+				<button text="ENT" onup="numENT_up" ondown="numENT_down"/>
+			</row>
+		</grid>
+		<grid weight="1">												<!--ODU buttons-->
+			<row>
+				<button text="⃝" onup="oduODU1_up" ondown="oduODU1_down"/>
+			</row>
+			<row>
+				<button text="⃝" onup="oduODU2_up" ondown="oduODU2_down"/>
+			</row>
+			<row>
+				<button text="⃝" onup="oduODU3_up" ondown="oduODU3_down"/>
+			</row>
+			<row>
+				<button text="⃝" onup="oduODU4_up" ondown="oduODU4_down"/>
+			</row>
+			<row>
+				<button text="⃝" onup="oduODU5_up" ondown="oduODU5_down"/>
+			</row>
+		</grid>
+		<grid weight="1">  											<!--COM2 side-->
+			<row>
+				<button text="EMCON" onup="miscEMCON_up" ondown="miscEMCON_down"/>
+			</row>
+			<row>
+				<button text="2↑"    onup="radioCOM2UP_up" ondown="radioCOM2UP_down"/>
+			</row>
+			<row>
+				<button text="2↓"    onup="radioCOM2DN_up" ondown="radioCOM2DN_down"/>
+			</row>
+		</grid>
+	</row>
+	<row weight="1">													<!--Bottom Row-->
+		<grid>												<!--Function buttons-->
+			<row>
+				<button text="A/P"   onup="funAP_up" ondown="funAP_down"/>
+				<button text="IFF"   onup="funIFF_up" ondown="funIFF_down"/>
+				<button text="TCN"   onup="funTCN_up" ondown="funTCN_down"/>
+				<button text="ILS"   onup="funILS_up" ondown="funILS_down"/>
+				<button text="D/L"   onup="funDL_up" ondown="funDL_down"/>
+				<button text="BCN"   onup="funBCN_up" ondown="funBCN_down"/>
+				<button text="ONOFF" onup="funONOFF_up" ondown="funONOFF_down"/>
+			</row>
+		</grid>
+	</row>
+</layout>
