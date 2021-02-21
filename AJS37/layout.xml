@@ -4,46 +4,46 @@
 		<row>																	<!--Radio-->
 			<grid>
 				<row>											<!--special-->
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
+					<button text="H" ondown="" onup=""/>
+					<button text="1" ondown="" onup=""/>
+					<button text="2" ondown="" onup=""/>
+					<button text="3" ondown="" onup=""/>
+					<button text="−" ondown="" onup=""/>
 				</row>
 				<row>											<!--base-->
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
+					<button text="A/G" ondown="" onup=""/>
+					<button text="B" ondown="" onup=""/>
+					<button text="C/F" ondown="" onup=""/>
+					<button text="C2" ondown="" onup=""/>
+					<button text="D/E" ondown="" onup=""/>
 				</row>
 				<row>											<!--preset dials-->
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
+					<button text="G↓" ondown="" onup=""/>
+					<button text="G↑" ondown="" onup=""/>
+					<button text="B↓" ondown="" onup=""/>
+					<button text="B↑" ondown="" onup=""/>
 				</row>
 				<row>											<!--preset channels 0-4-->
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
+					<button text="0" ondown="" onup=""/>
+					<button text="1" ondown="" onup=""/>
+					<button text="2" ondown="" onup=""/>
+					<button text="3" ondown="" onup=""/>
+					<button text="4" ondown="" onup=""/>
 				</row>
 				<row>											<!--preset channels 5-9-->
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
+					<button text="5" ondown="" onup=""/>
+					<button text="6" ondown="" onup=""/>
+					<button text="7" ondown="" onup=""/>
+					<button text="8" ondown="" onup=""/>
+					<button text="9" ondown="" onup=""/>
 				</row>
 				<row>											<!--FR24-->
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
-					<button text="" ondown="" onup=""/>
+					<button text="LARM" ondown="" onup=""/>
+					<button text="H" ondown="" onup=""/>
+					<button text="E" ondown="" onup=""/>
+					<button text="F" ondown="" onup=""/>
+					<button text="G" ondown="" onup=""/>
+					<button text="NORM" ondown="" onup=""/>
 				</row>
 			</grid>
 		</row>
@@ -51,42 +51,42 @@
 			<grid>											
 				<grid>										<!--Mode selector-->
 					<row>
-						<button text="" ondown="" onup=""/>
+						<button text="⤹" ondown="" onup=""/>
 					</row>
 					<row>
-						<button text="" ondown="" onup=""/>
+						<button text="⤸" ondown="" onup=""/>
 					</row>
 				</grid>
 				<grid>										<!--Radar selector-->
 					<row>
-						<button text="" ondown="" onup=""/>
-						<button text="" ondown="" onup=""/>
+						<button text="NORM" ondown="" onup=""/>
+						<button text="LAND" ondown="" onup=""/>
 					</row>
 					<row>
-						<button text="" ondown="" onup=""/>
-						<button text="" ondown="" onup=""/>
+						<button text="KORT" ondown="" onup=""/>
+						<button text="SJÖ" ondown="" onup=""/>
 					</row>
 					<row>
-						<button text="" ondown="" onup=""/>
-						<button text="" ondown="" onup=""/>
+						<button text="TILL" ondown="" onup=""/>
+						<button text="LOG" ondown="" onup=""/>
 					</row>
 					<row>
-						<button text="" ondown="" onup=""/>
-						<button text="" ondown="" onup=""/>
+						<button text="FRÅN" ondown="" onup=""/>
+						<button text="LIN" ondown="" onup=""/>
 					</row>
 				</grid>
 				<grid>										<!--Weapon mode selector-->
 					<row>
-						<button text="" ondown="" onup=""/>
+						<button text="NOR|SER" ondown="" onup=""/>
 					</row>
 					<row>
-						<button text="" ondown="" onup=""/>
+						<button text="GRP|VLB" ondown="" onup=""/>
 					</row>
 					<row>
-						<button text="" ondown="" onup=""/>
+						<button text="LA|IMP" ondown="" onup=""/>
 					</row>
 					<row>
-						<button text="" ondown="" onup=""/>
+						<button text="ENK|STD" ondown="" onup=""/>
 					</row>
 				</grid>
 			</grid>
@@ -94,62 +94,62 @@
 	</grid>
 	<grid weight="3">												<!--Datapanel-->
 		<row>												<!--Numpad-->
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
+			<button text="7" ondown="" onup=""/>
+			<button text="8" ondown="" onup=""/>
+			<button text="9" ondown="" onup=""/>
 		</row>
 		<row>
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
+			<button text="4" ondown="" onup=""/>
+			<button text="5" ondown="" onup=""/>
+			<button text="6" ondown="" onup=""/>
 		</row>
 		<row>
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
+			<button text="1" ondown="" onup=""/>
+			<button text="2" ondown="" onup=""/>
+			<button text="3" ondown="" onup=""/>
 		</row>
 		<row>												<!--Data selector + num0-->
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
-		</row>
+			<button text="⤹" ondown="" onup=""/>
+			<button text="0" ondown="" onup=""/>
+			<button text="⤸" ondown="" onup=""/>
+		</row>					
 		<row>												<!--IN/UT-->
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
+			<button text="IN" ondown="" onup=""/>
+			<button text="UT" ondown="" onup=""/>
 		</row>
 		<row>												<!--Weaponselector-->
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
+			<button text="⤹" ondown="" onup=""/>
+			<button text="⤸" ondown="" onup=""/>
 		</row>
 		<row>												<!--Weapon interval-->
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
+			<button text="⤹" ondown="" onup=""/>
+			<button text="⤸" ondown="" onup=""/>
 		</row>
 	</grid>
 	<grid weight="2">												<!--Waypoint Panel-->
 		<row>												
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
+			<button text="B5" ondown="" onup=""/>
+			<button text="B6" ondown="" onup=""/>
 		</row>
 		<row>												
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
+			<button text="B4" ondown="" onup=""/>
+			<button text="B7" ondown="" onup=""/>
 		</row>
 		<row>												
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
+			<button text="B3" ondown="" onup=""/>
+			<button text="B8" ondown="" onup=""/>
 		</row>
 		<row>												
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
+			<button text="B2" ondown="" onup=""/>
+			<button text="B9" ondown="" onup=""/>
 		</row>
 		<row>												
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
+			<button text="B1" ondown="" onup=""/>
+			<button text="BX" ondown="" onup=""/>
 		</row>
 		<row>												
-			<button text="" ondown="" onup=""/>
-			<button text="" ondown="" onup=""/>
+			<button text="LS|SKU" ondown="" onup=""/>
+			<button text="L|MÅL" ondown="" onup=""/>
 		</row>
 	</grid>
 </layout>
