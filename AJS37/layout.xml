@@ -1,2 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout>
+	<grid>												<!--Left side panel-->
+		<grid>											<!--Radio-->
+			<row>											<!--special-->
+			</row>
+			<row>											<!--base-->
+			</row>
+			<row>											<!--preset dials-->
+			</row>
+			<row>											<!--preset channels 0-4-->
+			</row>
+			<row>											<!--preset channels 5-9-->
+			</row>
+			<row>											<!--FR24-->
+			</row>
+		</grid>
+		<grid>											<!--Radar Control Panel-->
+			<grid>										<!--Mode selector-->
+			</grid>
+			<grid>										<!--Radar selector-->
+			</grid>
+			<grid>										<!--Weapon mode selector-->
+			</grid>
+		</grid>
+	</grid>
+	<grid>												<!--Datapanel-->
+		<row>												<!--Numpad-->
+		</row>
+		<row>												<!--Data selector + num0-->
+		</row>
+		<row>												<!--IN/UT-->
+		</row>
+		<row>												<!--Weaponselector-->
+		</row>
+		<row>												<!--Weapon interval-->
+		</row>
+	</grid>
+	<grid>												<!--Waypoint Panel-->
+	</grid>
+</layout>
