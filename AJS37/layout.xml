@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout>
-	<grid>												<!--Left side panel-->
+	<grid weight="4">												<!--Left side panel-->
 		<grid>											<!--Radio-->
 			<row>											<!--special-->
 				<button text="" ondown="" onup=""/>
@@ -88,7 +88,7 @@
 			</grid>
 		</grid>
 	</grid>
-	<grid>												<!--Datapanel-->
+	<grid weight="3">												<!--Datapanel-->
 		<row>												<!--Numpad-->
 			<button text="" ondown="" onup=""/>
 			<button text="" ondown="" onup=""/>
@@ -122,7 +122,7 @@
 			<button text="" ondown="" onup=""/>
 		</row>
 	</grid>
-	<grid>												<!--Waypoint Panel-->
+	<grid weight="2">												<!--Waypoint Panel-->
 		<row>												
 			<button text="" ondown="" onup=""/>
 			<button text="" ondown="" onup=""/>
