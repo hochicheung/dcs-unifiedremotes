@@ -1,92 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout>
 	<grid weight="4">												<!--Left side panel-->
-		<grid>											<!--Radio-->
-			<row>											<!--special-->
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-			</row>
-			<row>											<!--base-->
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-			</row>
-			<row>											<!--preset dials-->
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-			</row>
-			<row>											<!--preset channels 0-4-->
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-			</row>
-			<row>											<!--preset channels 5-9-->
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-			</row>
-			<row>											<!--FR24-->
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-				<button text="" ondown="" onup=""/>
-			</row>
-		</grid>
-		<grid>											<!--Radar Control Panel-->
-			<grid>										<!--Mode selector-->
-				<row>
+		<row>																	<!--Radio-->
+			<grid>
+				<row>											<!--special-->
 					<button text="" ondown="" onup=""/>
-				</row>
-				<row>
 					<button text="" ondown="" onup=""/>
-				</row>
-			</grid>
-			<grid>										<!--Radar selector-->
-				<row>
+					<button text="" ondown="" onup=""/>
 					<button text="" ondown="" onup=""/>
 					<button text="" ondown="" onup=""/>
 				</row>
-				<row>
+				<row>											<!--base-->
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
 					<button text="" ondown="" onup=""/>
 					<button text="" ondown="" onup=""/>
 				</row>
-				<row>
+				<row>											<!--preset dials-->
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
 					<button text="" ondown="" onup=""/>
 					<button text="" ondown="" onup=""/>
 				</row>
-				<row>
+				<row>											<!--preset channels 0-4-->
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
+				</row>
+				<row>											<!--preset channels 5-9-->
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
+				</row>
+				<row>											<!--FR24-->
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
+					<button text="" ondown="" onup=""/>
 					<button text="" ondown="" onup=""/>
 					<button text="" ondown="" onup=""/>
 				</row>
 			</grid>
-			<grid>										<!--Weapon mode selector-->
-				<row>
-					<button text="" ondown="" onup=""/>
-				</row>
-				<row>
-					<button text="" ondown="" onup=""/>
-				</row>
-				<row>
-					<button text="" ondown="" onup=""/>
-				</row>
-				<row>
-					<button text="" ondown="" onup=""/>
-				</row>
+		</row>
+		<row>												<!--Radar Control Panel-->
+			<grid>											
+				<grid>										<!--Mode selector-->
+					<row>
+						<button text="" ondown="" onup=""/>
+					</row>
+					<row>
+						<button text="" ondown="" onup=""/>
+					</row>
+				</grid>
+				<grid>										<!--Radar selector-->
+					<row>
+						<button text="" ondown="" onup=""/>
+						<button text="" ondown="" onup=""/>
+					</row>
+					<row>
+						<button text="" ondown="" onup=""/>
+						<button text="" ondown="" onup=""/>
+					</row>
+					<row>
+						<button text="" ondown="" onup=""/>
+						<button text="" ondown="" onup=""/>
+					</row>
+					<row>
+						<button text="" ondown="" onup=""/>
+						<button text="" ondown="" onup=""/>
+					</row>
+				</grid>
+				<grid>										<!--Weapon mode selector-->
+					<row>
+						<button text="" ondown="" onup=""/>
+					</row>
+					<row>
+						<button text="" ondown="" onup=""/>
+					</row>
+					<row>
+						<button text="" ondown="" onup=""/>
+					</row>
+					<row>
+						<button text="" ondown="" onup=""/>
+					</row>
+				</grid>
 			</grid>
-		</grid>
+		</row>
 	</grid>
 	<grid weight="3">												<!--Datapanel-->
 		<row>												<!--Numpad-->
