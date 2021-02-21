@@ -37,14 +37,6 @@
 					<button text="8" ondown="down_v" onup="up_v"/>
 					<button text="9" ondown="down_b" onup="up_b"/>
 				</row>
-				<row>											<!--FR24-->
-					<button text="LARM" ondown="down_mult" onup="up_mult"/>
-					<button text="H" ondown="down_sub" onup="up_sub"/>
-					<button text="E" ondown="down_add" onup="up_add"/>
-					<button text="F" ondown="down_dec" onup="up_dec"/>
-					<button text="G" ondown="down_div" onup="up_div"/>
-					<button text="NORM" ondown="down_sep" onup="up_sep"/>
-				</row>
 			</grid>
 		</row>
 		<row>												<!--Radar Control Panel-->
