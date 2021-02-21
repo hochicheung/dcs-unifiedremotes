@@ -1,0 +1,15 @@
+#+title: Layout
+** Numpad 0-9 (10)
+	 ralt + num0-9
+** Digit 0-9 (10)
+	 ralt + digit0-9
+** Fun 1-12 (12)
+	 ralt + F1-12
+** Alphabetic (26)
+	 ralt + a-z
+** Keypad fun (6)
+	 ralt + keypadmult, keypadsub
+** Keyboard Nav (10)
+	 ralt + home,end,insert,pgup,left,right
+** Keyboard Edit (4)
+	 ralt + backspace, enter, space, tab
