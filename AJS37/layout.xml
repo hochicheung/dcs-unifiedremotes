@@ -4,46 +4,46 @@
 		<row>																	<!--Radio-->
 			<grid>
 				<row>											<!--special-->
-					<button text="H" ondown="" onup=""/>
-					<button text="1" ondown="" onup=""/>
-					<button text="2" ondown="" onup=""/>
-					<button text="3" ondown="" onup=""/>
-					<button text="−" ondown="" onup=""/>
+					<button text="H" ondown="down_q" onup="up_q"/>
+					<button text="1" ondown="down_w" onup="up_w"/>
+					<button text="2" ondown="down_e" onup="up_e"/>
+					<button text="3" ondown="down_r" onup="up_r"/>
+					<button text="−" ondown="down_t" onup="up_t"/>
 				</row>
 				<row>											<!--base-->
-					<button text="A/G" ondown="" onup=""/>
-					<button text="B" ondown="" onup=""/>
-					<button text="C/F" ondown="" onup=""/>
-					<button text="C2" ondown="" onup=""/>
-					<button text="D/E" ondown="" onup=""/>
+					<button text="A/G" ondown="down_y" onup="up_y"/>
+					<button text="B" ondown="down_u" onup="up_u"/>
+					<button text="C/F" ondown="down_i" onup="up_i"/>
+					<button text="C2" ondown="down_o" onup="up_o"/>
+					<button text="D/E" ondown="down_p" onup="up_p"/>
 				</row>
 				<row>											<!--preset dials-->
-					<button text="G↓" ondown="" onup=""/>
-					<button text="G↑" ondown="" onup=""/>
-					<button text="B↓" ondown="" onup=""/>
-					<button text="B↑" ondown="" onup=""/>
+					<button text="G↓" ondown="down_a" onup="up_a"/>
+					<button text="G↑" ondown="down_s" onup="up_s"/>
+					<button text="B↓" ondown="down_d" onup="up_d"/>
+					<button text="B↑" ondown="down_f" onup="up_f"/>
 				</row>
 				<row>											<!--preset channels 0-4-->
-					<button text="0" ondown="" onup=""/>
-					<button text="1" ondown="" onup=""/>
-					<button text="2" ondown="" onup=""/>
-					<button text="3" ondown="" onup=""/>
-					<button text="4" ondown="" onup=""/>
+					<button text="0" ondown="down_g" onup="up_g"/>
+					<button text="1" ondown="down_h" onup="up_h"/>
+					<button text="2" ondown="down_j" onup="up_j"/>
+					<button text="3" ondown="down_k" onup="up_k"/>
+					<button text="4" ondown="down_l" onup="up_l"/>
 				</row>
 				<row>											<!--preset channels 5-9-->
-					<button text="5" ondown="" onup=""/>
-					<button text="6" ondown="" onup=""/>
-					<button text="7" ondown="" onup=""/>
-					<button text="8" ondown="" onup=""/>
-					<button text="9" ondown="" onup=""/>
+					<button text="5" ondown="down_z" onup="up_z"/>
+					<button text="6" ondown="down_x" onup="up_x"/>
+					<button text="7" ondown="down_c" onup="up_c"/>
+					<button text="8" ondown="down_v" onup="up_v"/>
+					<button text="9" ondown="down_b" onup="up_b"/>
 				</row>
 				<row>											<!--FR24-->
-					<button text="LARM" ondown="" onup=""/>
-					<button text="H" ondown="" onup=""/>
-					<button text="E" ondown="" onup=""/>
-					<button text="F" ondown="" onup=""/>
-					<button text="G" ondown="" onup=""/>
-					<button text="NORM" ondown="" onup=""/>
+					<button text="LARM" ondown="down_mult" onup="up_mult"/>
+					<button text="H" ondown="down_sub" onup="up_sub"/>
+					<button text="E" ondown="down_add" onup="up_add"/>
+					<button text="F" ondown="down_dec" onup="up_dec"/>
+					<button text="G" ondown="down_div" onup="up_div"/>
+					<button text="NORM" ondown="down_sep" onup="up_sep"/>
 				</row>
 			</grid>
 		</row>
@@ -51,42 +51,42 @@
 			<grid>											
 				<grid>										<!--Mode selector-->
 					<row>
-						<button text="⤹" ondown="" onup=""/>
+						<button text="⤹" ondown="down_f1" onup="up_f1"/>
 					</row>
 					<row>
-						<button text="⤸" ondown="" onup=""/>
+						<button text="⤸" ondown="down_f2" onup="up_f2"/>
 					</row>
 				</grid>
 				<grid>										<!--Radar selector-->
 					<row>
-						<button text="NORM" ondown="" onup=""/>
-						<button text="LAND" ondown="" onup=""/>
+						<button text="NORM" ondown="down_f3" onup="up_f3"/>
+						<button text="LAND" ondown="down_f4" onup="up_f4"/>
 					</row>
 					<row>
-						<button text="KORT" ondown="" onup=""/>
-						<button text="SJÖ" ondown="" onup=""/>
+						<button text="KORT" ondown="down_f5" onup="up_f5"/>
+						<button text="SJÖ" ondown="down_f6" onup="up_f6"/>
 					</row>
 					<row>
-						<button text="TILL" ondown="" onup=""/>
-						<button text="LOG" ondown="" onup=""/>
+						<button text="TILL" ondown="down_f7" onup="up_f7"/>
+						<button text="LOG" ondown="down_f8" onup="up_f8"/>
 					</row>
 					<row>
-						<button text="FRÅN" ondown="" onup=""/>
-						<button text="LIN" ondown="" onup=""/>
+						<button text="FRÅN" ondown="down_f9" onup="up_f9"/>
+						<button text="LIN" ondown="down_f10" onup="up_f10"/>
 					</row>
 				</grid>
 				<grid>										<!--Weapon mode selector-->
 					<row>
-						<button text="NOR|SER" ondown="" onup=""/>
+						<button text="NOR|SER" ondown="down_f11" onup="up_f11"/>
 					</row>
 					<row>
-						<button text="GRP|VLB" ondown="" onup=""/>
+						<button text="GRP|VLB" ondown="down_f12" onup="up_f12"/>
 					</row>
 					<row>
-						<button text="LA|IMP" ondown="" onup=""/>
+						<button text="LA|IMP" ondown="down_pgup" onup="up_pgup"/>
 					</row>
 					<row>
-						<button text="ENK|STD" ondown="" onup=""/>
+						<button text="ENK|STD" ondown="down_pgdown" onup="up_pgdown"/>
 					</row>
 				</grid>
 			</grid>
@@ -94,62 +94,62 @@
 	</grid>
 	<grid weight="3">												<!--Datapanel-->
 		<row>												<!--Numpad-->
-			<button text="7" ondown="" onup=""/>
-			<button text="8" ondown="" onup=""/>
-			<button text="9" ondown="" onup=""/>
+			<button text="7" ondown="down_num7" onup="up_num7"/>
+			<button text="8" ondown="down_num8" onup="up_num8"/>
+			<button text="9" ondown="down_num9" onup="up_num9"/>
 		</row>
 		<row>
-			<button text="4" ondown="" onup=""/>
-			<button text="5" ondown="" onup=""/>
-			<button text="6" ondown="" onup=""/>
+			<button text="4" ondown="down_num4" onup="up_num4"/>
+			<button text="5" ondown="down_num5" onup="up_num5"/>
+			<button text="6" ondown="down_num6" onup="up_num6"/>
 		</row>
 		<row>
-			<button text="1" ondown="" onup=""/>
-			<button text="2" ondown="" onup=""/>
-			<button text="3" ondown="" onup=""/>
+			<button text="1" ondown="down_num1" onup="up_num1"/>
+			<button text="2" ondown="down_num2" onup="up_num2"/>
+			<button text="3" ondown="down_num3" onup="up_num3"/>
 		</row>
 		<row>												<!--Data selector + num0-->
-			<button text="⤹" ondown="" onup=""/>
-			<button text="0" ondown="" onup=""/>
-			<button text="⤸" ondown="" onup=""/>
+			<button text="⤹" ondown="down_home" onup="up_home"/>
+			<button text="0" ondown="down_num0" onup="up_num0"/>
+			<button text="⤸" ondown="down_end" onup="up_end"/>
 		</row>					
 		<row>												<!--IN/UT-->
-			<button text="IN" ondown="" onup=""/>
-			<button text="UT" ondown="" onup=""/>
+			<button text="IN" ondown="down_insert" onup="up_insert"/>
+			<button text="UT" ondown="down_delete" onup="up_delete"/>
 		</row>
 		<row>												<!--Weaponselector-->
-			<button text="⤹" ondown="" onup=""/>
-			<button text="⤸" ondown="" onup=""/>
+			<button text="⤹" ondown="down_left" onup="up_left"/>
+			<button text="⤸" ondown="down_up" onup="up_up"/>
 		</row>
 		<row>												<!--Weapon interval-->
-			<button text="⤹" ondown="" onup=""/>
-			<button text="⤸" ondown="" onup=""/>
+			<button text="⤹" ondown="down_right" onup="up_right"/>
+			<button text="⤸" ondown="down_down" onup="up_down"/>
 		</row>
 	</grid>
 	<grid weight="2">												<!--Waypoint Panel-->
 		<row>												
-			<button text="B5" ondown="" onup=""/>
-			<button text="B6" ondown="" onup=""/>
+			<button text="B5" ondown="down_digit5" onup="up_digit5"/>
+			<button text="B6" ondown="down_digit6" onup="up_digit6"/>
 		</row>
 		<row>												
-			<button text="B4" ondown="" onup=""/>
-			<button text="B7" ondown="" onup=""/>
+			<button text="B4" ondown="down_digit4" onup="up_digit4"/>
+			<button text="B7" ondown="down_digit7" onup="up_digit7"/>
 		</row>
 		<row>												
-			<button text="B3" ondown="" onup=""/>
-			<button text="B8" ondown="" onup=""/>
+			<button text="B3" ondown="down_digit3" onup="up_digit3"/>
+			<button text="B8" ondown="down_digit8" onup="up_digit8"/>
 		</row>
 		<row>												
-			<button text="B2" ondown="" onup=""/>
-			<button text="B9" ondown="" onup=""/>
+			<button text="B2" ondown="down_digit2" onup="up_digit2"/>
+			<button text="B9" ondown="down_digit9" onup="up_digit9"/>
 		</row>
 		<row>												
-			<button text="B1" ondown="" onup=""/>
-			<button text="BX" ondown="" onup=""/>
+			<button text="B1" ondown="down_digit1" onup="up_digit1"/>
+			<button text="BX" ondown="down_digit0" onup="up_digit0"/>
 		</row>
 		<row>												
-			<button text="LS|SKU" ondown="" onup=""/>
-			<button text="L|MÅL" ondown="" onup=""/>
+			<button text="LS|SKU" ondown="down_enter" onup="up_enter"/>
+			<button text="L|MÅL" ondown="down_backspace" onup="up_backspace"/>
 		</row>
 	</grid>
 </layout>
