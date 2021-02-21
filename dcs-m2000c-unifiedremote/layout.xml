@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	<row weight = "1">						<!--WP and PCA-->
+		<grid weight ="1">
+			<row>
+				<button text="+" ondown="wpINC"/>
+			</row>
+			<row>
+				<button text="−" ondown="wpDEC"/>
+			</row>
+		</grid>
+		<grid weight="9" color="497a5f">
+			<row>												
+				<button text="" ondown="pcaBTN1"/>
+				<button text="" ondown="pcaBTN2"/>
+				<button text="" ondown="pcaBTN3"/>
+				<button text="" ondown="pcaBTN4"/>
+				<button text="" ondown="pcaBTN5"/>
+			</row>
+			<row>
+				<button text="" ondown="pcaSEL1"/>
+				<button text="" ondown="pcaSEL2"/>
+				<button text="" ondown="pcaSEL3"/>
+				<button text="" ondown="pcaSEL4"/>
+				<button text="" ondown="pcaSEL5"/>
+			</row>
+		</grid>
+	</row>
+	<row weight="1" color="093717">							<!--Gunmode and vUHF-->
+		<grid>												
+			<row>
+				<button text="" ondown="pcaGUN" color="497a5f"/>
+				<button text="1" ondown="vuhf1"/>
+				<button text="2" ondown="vuhf2"/>
+				<button text="3" ondown="vuhf3"/>
+				<button text="4" ondown="vuhf4"/>
+				<button text="5" ondown="vuhf5"/>
+				<button text="MEM" ondown="vuhfMEM"/>
+			</row>
+			<row>
+				<button text="XFR" ondown="vuhfXFR"/>
+				<button text="6" ondown="vuhf6"/>
+				<button text="7" ondown="vuhf7"/>
+				<button text="8" ondown="vuhf8"/>
+				<button text="9" ondown="vuhf9"/>
+				<button text="0" ondown="vuhf0"/>
+				<button text="CONF" ondown="vuhfCONF"/>
+			</row>
+		</grid>
+	</row>
+	<row weight ="3">							
+		<grid weight ="1" color="e0bf18">					<!--Autopilot-->
+			<row>
+				<button text="ATT" ondown="apATT"/>
+			</row>
+			<row>
+				<button text="ALT" ondown="apALT"/>
+			</row>
+			<row>
+				<button text="AFF" ondown="apAFF"/>
+			</row>
+			<row>
+				<button text="ILS" ondown="apILS"/>
+			</row>
+		</grid>
+		<grid weight ="9">					<!--PCN and radio-->
+			<row>
+				<button text="PREP" ondown="pcnPREP" color="a4b448"/>
+				<button text="DEST" ondown="pcnDEST" color="a4b448"/>
+				<button text="1" ondown="pcnNUM1"/>
+				<button text="2" ondown="pcnNUM2"/>
+				<button text="3" ondown="pcnNUM3"/>
+				<button text="+" ondown="uhfINC" color="66330d"/>
+			</row>
+			<row>
+				<button text="↑" ondown="pcnCW"/>
+				<button text="BAD" ondown="pcnBAD" color="9f5410"/>
+				<button text="4" ondown="pcnNUM4"/>
+				<button text="5" ondown="pcnNUM5"/>
+				<button text="6" ondown="pcnNUM6"/>
+				<button text="−" ondown="uhfDEC" color="66330d"/>
+			</row>
+			<row>
+				<button text="↓" ondown="pcnCCW"/>
+				<button text="REC" ondown="pcnREC" color="9f5410"/>
+				<button text="7" ondown="pcnNUM7"/>
+				<button text="8" ondown="pcnNUM8"/>
+				<button text="9" ondown="pcnNUM9"/>
+				<button text="+" ondown="vuhfINC" color="093717"/>
+			</row>
+			<row>
+				<button text="VAL" ondown="pcnVAL" color="9f5410"/>
+				<button text="MRQ" ondown="pcnMRQ" color="9f5410"/>
+				<button text="EFF" ondown="pcnEFF" color="a4b448"/>
+				<button text="0" ondown="pcnNUM0"/>
+				<button text="INS" ondown="pcnINS" color="a4b448"/>
+				<button text="−" ondown="vuhfDEC" color="093717"/>
+			</row>
+		</grid>
+	</row>
+</layout>
