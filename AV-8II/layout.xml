@@ -1,3 +1,164 @@
 <?xml version ="1.0" encoding="UTF-8"?>
 <layout>
+	<grid>												<!--LEFT MFCD-->
+		<row>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</row>
+		<row>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</row>
+		<row>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown="" color="#303030"/>
+		</row>
+		<row>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</row>
+		<row>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</row>
+	</grid>
+	<grid>												<!--Mid section-->
+		<row>												<!--TOP MFCD-->
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</row>
+		<row>												<!--UFC + ODU-->
+			<grid>										<!--ODU-->
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown="" color="#303030"/>
+				</row>
+				<row>
+					<button text="" onup="" ondown="" color="#303030"/>
+				</row>
+			</grid>
+			<grid>										<!--LEFT UFC-->
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+			</grid>
+			<grid>										<!--MID UFC-->
+				<row>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+					<button text="" onup="" ondown=""/>
+				</row>
+			</grid>
+			<grid>										<!--RIGHT UFC-->
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+				<row>
+					<button text="" onup="" ondown=""/>
+				</row>
+			</grid>
+		</row>
+		<row>												<!--BOTTOM MFCD-->
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</row>
+	</grid>
+	<grid>												<!--RIGHT MFCD-->
+		<row>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</row>
+		<row>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</row>
+		<row>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown="" color="#303030"/>
+		</row>
+		<row>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</row>
+		<row>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</row>
+	</grid>
 </layout>
