@@ -2,7 +2,13 @@
 
 local kb = require("keyboard");
 
--- Numpad
+-- Numpad 0-29 (30)
+actions.up_num0 = function ()
+	 kb.up("ralt", "num0")
+end
+actions.down_num0 = function ()
+	 kb.down("ralt", "num0")
+end
 actions.up_num1 = function ()
 	 kb.up("ralt", "num1")
 end
@@ -57,14 +63,134 @@ end
 actions.down_num9 = function ()
 	 kb.down("ralt", "num9")
 end
-actions.up_num0 = function ()
-	 kb.up("ralt", "num0")
+actions.up_num10 = function ()
+	 kb.up("ralt", "shift", "num0")
 end
-actions.down_num0 = function ()
-	 kb.down("ralt", "num0")
+actions.down_num10 = function ()
+	 kb.down("ralt", "shift", "num0")
+end
+actions.up_num11 = function ()
+	 kb.up("ralt", "shift", "num1")
+end
+actions.down_num11 = function ()
+	 kb.down("ralt", "shift", "num1")
+end
+actions.up_num12 = function ()
+	 kb.up("ralt", "shift", "num2")
+end
+actions.down_num12 = function ()
+	 kb.down("ralt", "shift", "num2")
+end
+actions.up_num13 = function ()
+	 kb.up("ralt", "shift", "num3")
+end
+actions.down_num13 = function ()
+	 kb.down("ralt", "shift", "num3")
+end
+actions.up_num14 = function ()
+	 kb.up("ralt", "shift", "num4")
+end
+actions.down_num14 = function ()
+	 kb.down("ralt", "shift", "num4")
+end
+actions.up_num15 = function ()
+	 kb.up("ralt", "shift", "num5")
+end
+actions.down_num15 = function ()
+	 kb.down("ralt", "shift", "num5")
+end
+actions.up_num16 = function ()
+	 kb.up("ralt", "shift", "num6")
+end
+actions.down_num16 = function ()
+	 kb.down("ralt", "shift", "num6")
+end
+actions.up_num17 = function ()
+	 kb.up("ralt", "shift", "num7")
+end
+actions.down_num17 = function ()
+	 kb.down("ralt", "shift", "num7")
+end
+actions.up_num18 = function ()
+	 kb.up("ralt", "shift", "num8")
+end
+actions.down_num18 = function ()
+	 kb.down("ralt", "shift", "num8")
+end
+actions.up_num19 = function ()
+	 kb.up("ralt", "shift", "num9")
+end
+actions.down_num19 = function ()
+	 kb.down("ralt", "shift", "num9")
+end
+actions.up_num20 = function ()
+	 kb.up("ralt", "ctrl", "num0")
+end
+actions.down_num20 = function ()
+	 kb.down("ralt", "ctrl", "num0")
+end
+actions.up_num21 = function ()
+	 kb.up("ralt", "ctrl", "num1")
+end
+actions.down_num21 = function ()
+	 kb.down("ralt", "ctrl", "num1")
+end
+actions.up_num22 = function ()
+	 kb.up("ralt", "ctrl", "num2")
+end
+actions.down_num22 = function ()
+	 kb.down("ralt", "ctrl", "num2")
+end
+actions.up_num23 = function ()
+	 kb.up("ralt", "ctrl", "num3")
+end
+actions.down_num23 = function ()
+	 kb.down("ralt", "ctrl", "num3")
+end
+actions.up_num24 = function ()
+	 kb.up("ralt", "ctrl", "num4")
+end
+actions.down_num24 = function ()
+	 kb.down("ralt", "ctrl", "num4")
+end
+actions.up_num25 = function ()
+	 kb.up("ralt", "ctrl", "num5")
+end
+actions.down_num25 = function ()
+	 kb.down("ralt", "ctrl", "num5")
+end
+actions.up_num26 = function ()
+	 kb.up("ralt", "ctrl", "num6")
+end
+actions.down_num26 = function ()
+	 kb.down("ralt", "ctrl", "num6")
+end
+actions.up_num27 = function ()
+	 kb.up("ralt", "ctrl", "num7")
+end
+actions.down_num27 = function ()
+	 kb.down("ralt", "ctrl", "num7")
+end
+actions.up_num28 = function ()
+	 kb.up("ralt", "ctrl", "num8")
+end
+actions.down_num28 = function ()
+	 kb.down("ralt", "ctrl", "num8")
+end
+actions.up_num29 = function ()
+	 kb.up("ralt", "ctrl", "num9")
+end
+actions.down_num29 = function ()
+	 kb.down("ralt", "ctrl", "num9")
 end
 
--- Digit
+-- Digit 0-29 (30)
+actions.up_digit0 = function ()
+	 kb.up("ralt", "digit0")
+end
+actions.down_digit0 = function ()
+	 kb.down("ralt", "digit0")
+end
 actions.up_digit1 = function ()
 	 kb.up("ralt", "digit1")
 end
@@ -119,14 +245,128 @@ end
 actions.down_digit9 = function ()
 	 kb.down("ralt", "digit9")
 end
-actions.up_digit0 = function ()
-	 kb.up("ralt", "digit0")
+actions.up_digit10 = function ()
+	 kb.up("ralt", "shift", "digit0")
 end
-actions.down_digit0 = function ()
-	 kb.down("ralt", "digit0")
+actions.down_digit10 = function ()
+	 kb.down("ralt", "shift", "digit0")
+end
+actions.up_digit11 = function ()
+	 kb.up("ralt", "shift", "digit1")
+end
+actions.down_digit11 = function ()
+	 kb.down("ralt", "shift", "digit1")
+end
+actions.up_digit12 = function ()
+	 kb.up("ralt", "shift", "digit2")
+end
+actions.down_digit12 = function ()
+	 kb.down("ralt", "shift", "digit2")
+end
+actions.up_digit13 = function ()
+	 kb.up("ralt", "shift", "digit3")
+end
+actions.down_digit13 = function ()
+	 kb.down("ralt", "shift", "digit3")
+end
+actions.up_digit14 = function ()
+	 kb.up("ralt", "shift", "digit4")
+end
+actions.down_digit14 = function ()
+	 kb.down("ralt", "shift", "digit4")
+end
+actions.up_digit15 = function ()
+	 kb.up("ralt", "shift", "digit5")
+end
+actions.down_digit15 = function ()
+	 kb.down("ralt", "shift", "digit5")
+end
+actions.up_digit16 = function ()
+	 kb.up("ralt", "shift", "digit6")
+end
+actions.down_digit16 = function ()
+	 kb.down("ralt", "shift", "digit6")
+end
+actions.up_digit17 = function ()
+	 kb.up("ralt", "shift", "digit7")
+end
+actions.down_digit17 = function ()
+	 kb.down("ralt", "shift", "digit7")
+end
+actions.up_digit18 = function ()
+	 kb.up("ralt", "shift", "digit8")
+end
+actions.down_digit18 = function ()
+	 kb.down("ralt", "shift", "digit8")
+end
+actions.up_digit19 = function ()
+	 kb.up("ralt", "shift", "digit9")
+end
+actions.down_digit19 = function ()
+	 kb.down("ralt", "shift", "digit9")
+end
+actions.up_digit20 = function ()
+	 kb.up("ralt", "ctrl", "digit0")
+end
+actions.down_digit20 = function ()
+	 kb.down("ralt", "ctrl", "digit0")
+end
+actions.up_digit21 = function ()
+	 kb.up("ralt", "ctrl", "digit1")
+end
+actions.down_digit21 = function ()
+	 kb.down("ralt", "ctrl", "digit1")
+end
+actions.up_digit22 = function ()
+	 kb.up("ralt", "ctrl", "digit2")
+end
+actions.down_digit22 = function ()
+	 kb.down("ralt", "ctrl", "digit2")
+end
+actions.up_digit23 = function ()
+	 kb.up("ralt", "ctrl", "digit3")
+end
+actions.down_digit23 = function ()
+	 kb.down("ralt", "ctrl", "digit3")
+end
+actions.up_digit24 = function ()
+	 kb.up("ralt", "ctrl", "digit4")
+end
+actions.down_digit24 = function ()
+	 kb.down("ralt", "ctrl", "digit4")
+end
+actions.up_digit25 = function ()
+	 kb.up("ralt", "ctrl", "digit5")
+end
+actions.down_digit25 = function ()
+	 kb.down("ralt", "ctrl", "digit5")
+end
+actions.up_digit26 = function ()
+	 kb.up("ralt", "ctrl", "digit6")
+end
+actions.down_digit26 = function ()
+	 kb.down("ralt", "ctrl", "digit6")
+end
+actions.up_digit27 = function ()
+	 kb.up("ralt", "ctrl", "digit7")
+end
+actions.down_digit27 = function ()
+	 kb.down("ralt", "ctrl", "digit7")
+end
+actions.up_digit28 = function ()
+	 kb.up("ralt", "ctrl", "digit8")
+end
+actions.down_digit28 = function ()
+	 kb.down("ralt", "ctrl", "digit8")
+end
+actions.up_digit29 = function ()
+	 kb.up("ralt", "ctrl", "digit9")
+end
+actions.down_digit29 = function ()
+	 kb.down("ralt", "ctrl", "digit9")
 end
 
--- Function
+-- Function 1-24 (24)
 actions.up_f1 = function ()
 	 kb.up("ralt", "f1")
 end
@@ -199,8 +439,80 @@ end
 actions.down_f12 = function ()
 	 kb.down("ralt", "f12")
 end
+actions.up_f13 = function ()
+	 kb.up("ralt", "f1")
+end
+actions.down_f13 = function ()
+	 kb.down("ralt", "shift", "f1")
+end
+actions.up_f14 = function ()
+	 kb.up("ralt", "shift", "f2")
+end
+actions.down_f14 = function ()
+	 kb.down("ralt", "shift", "f2")
+end
+actions.up_f15 = function ()
+	 kb.up("ralt", "shift", "f3")
+end
+actions.down_f15 = function ()
+	 kb.down("ralt", "shift", "f3")
+end
+actions.up_f16 = function ()
+	 kb.up("ralt", "shift", "f4")
+end
+actions.down_f16 = function ()
+	 kb.down("ralt", "shift", "f4")
+end
+actions.up_f17 = function ()
+	 kb.up("ralt", "shift", "f5")
+end
+actions.down_f17 = function ()
+	 kb.down("ralt", "shift", "f5")
+end
+actions.up_f18 = function ()
+	 kb.up("ralt", "shift", "f6")
+end
+actions.down_f18 = function ()
+	 kb.down("ralt", "shift", "f6")
+end
+actions.up_f19 = function ()
+	 kb.up("ralt", "shift", "f7")
+end
+actions.down_f19 = function ()
+	 kb.down("ralt", "shift", "f7")
+end
+actions.up_f20 = function ()
+	 kb.up("ralt", "shift", "f8")
+end
+actions.down_f20 = function ()
+	 kb.down("ralt", "shift", "f8")
+end
+actions.up_f21 = function ()
+	 kb.up("ralt", "shift", "f9")
+end
+actions.down_f21 = function ()
+	 kb.down("ralt", "shift", "f9")
+end
+actions.up_f22 = function ()
+	 kb.up("ralt", "shift", "f10")
+end
+actions.down_f22 = function ()
+	 kb.down("ralt", "shift", "f10")
+end
+actions.up_f23 = function ()
+	 kb.up("ralt", "shift", "f11")
+end
+actions.down_f23 = function ()
+	 kb.down("ralt", "shift", "f11")
+end
+actions.up_f24 = function ()
+	 kb.up("ralt", "shift", "f12")
+end
+actions.down_f24 = function ()
+	 kb.down("ralt", "shift", "f12")
+end
 
--- Alphabetic
+-- Alphabetic 26x2 (52)
 actions.up_a = function ()
 	 kb.up("ralt", "a")
 end
@@ -356,6 +668,162 @@ actions.up_z = function ()
 end
 actions.down_z = function ()
 	 kb.down("ralt", "z")
+end
+actions.up_A = function ()
+	 kb.up("ralt", "shift", "a")
+end
+actions.down_A = function ()
+	 kb.down("ralt", "shift", "a")
+end
+actions.up_B = function ()
+	 kb.up("ralt", "shift", "b")
+end
+actions.down_B = function ()
+	 kb.down("ralt", "shift", "b")
+end
+actions.up_C = function ()
+	 kb.up("ralt", "shift", "c")
+end
+actions.down_C = function ()
+	 kb.down("ralt", "shift", "c")
+end
+actions.up_D = function ()
+	 kb.up("ralt", "shift", "d")
+end
+actions.down_D = function ()
+	 kb.down("ralt", "shift", "d")
+end
+actions.up_E = function ()
+	 kb.up("ralt", "shift", "e")
+end
+actions.down_E = function ()
+	 kb.down("ralt", "shift", "e")
+end
+actions.up_F = function ()
+	 kb.up("ralt", "shift", "f")
+end
+actions.down_F = function ()
+	 kb.down("ralt", "shift", "f")
+end
+actions.up_G = function ()
+	 kb.up("ralt", "shift", "g")
+end
+actions.down_G = function ()
+	 kb.down("ralt", "shift", "g")
+end
+actions.up_H = function ()
+	 kb.up("ralt", "shift", "h")
+end
+actions.down_H = function ()
+	 kb.down("ralt", "shift", "h")
+end
+actions.up_I = function ()
+	 kb.up("ralt", "shift", "i")
+end
+actions.down_I = function ()
+	 kb.down("ralt", "shift", "i")
+end
+actions.up_J = function ()
+	 kb.up("ralt", "shift", "j")
+end
+actions.down_J = function ()
+	 kb.down("ralt", "shift", "j")
+end
+actions.up_K = function ()
+	 kb.up("ralt", "shift", "k")
+end
+actions.down_K = function ()
+	 kb.down("ralt", "shift", "k")
+end
+actions.up_L = function ()
+	 kb.up("ralt", "shift", "l")
+end
+actions.down_L = function ()
+	 kb.down("ralt", "shift", "l")
+end
+actions.up_M = function ()
+	 kb.up("ralt", "shift", "m")
+end
+actions.down_M = function ()
+	 kb.down("ralt", "shift", "m")
+end
+actions.up_N = function ()
+	 kb.up("ralt", "shift", "n")
+end
+actions.down_N = function ()
+	 kb.down("ralt", "shift", "n")
+end
+actions.up_O = function ()
+	 kb.up("ralt", "shift", "o")
+end
+actions.down_O = function ()
+	 kb.down("ralt", "shift", "o")
+end
+actions.up_P = function ()
+	 kb.up("ralt", "shift", "p")
+end
+actions.down_P = function ()
+	 kb.down("ralt", "shift", "p")
+end
+actions.up_Q = function ()
+	 kb.up("ralt", "shift", "q")
+end
+actions.down_Q = function ()
+	 kb.down("ralt", "shift", "q")
+end
+actions.up_R = function ()
+	 kb.up("ralt", "shift", "r")
+end
+actions.down_R = function ()
+	 kb.down("ralt", "shift", "r")
+end
+actions.up_S = function ()
+	 kb.up("ralt", "shift", "s")
+end
+actions.down_S = function ()
+	 kb.down("ralt", "shift", "s")
+end
+actions.up_T = function ()
+	 kb.up("ralt", "shift", "t")
+end
+actions.down_T = function ()
+	 kb.down("ralt", "shift", "t")
+end
+actions.up_U = function ()
+	 kb.up("ralt", "shift", "u")
+end
+actions.down_U = function ()
+	 kb.down("ralt", "shift", "u")
+end
+actions.up_V = function ()
+	 kb.up("ralt", "shift", "v")
+end
+actions.down_V = function ()
+	 kb.down("ralt", "shift", "v")
+end
+actions.up_W = function ()
+	 kb.up("ralt", "shift", "w")
+end
+actions.down_W = function ()
+	 kb.down("ralt", "shift", "w")
+end
+actions.up_X = function ()
+	 kb.up("ralt", "shift", "x")
+end
+actions.down_X = function ()
+	 kb.down("ralt", "shift", "x")
+end
+actions.up_Y = function ()
+	 kb.up("ralt", "shift", "y")
+end
+actions.down_Y = function ()
+	 kb.down("ralt", "shift", "y")
+end
+actions.up_Z = function ()
+	 kb.up("ralt", "shift", "z")
+end
+actions.down_Z = function ()
+	 kb.down("ralt", "shift", "z")
 end
 
 -- Keypad Function
