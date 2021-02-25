@@ -36,7 +36,7 @@
 			<button text="" onup="" ondown=""/>
 		</row>
 		<row weight="8">												<!--UFC + ODU-->
-			<grid weight="1">										<!--ODU-->
+			<grid weight="2">										<!--ODU-->
 				<row>
 					<button text="" onup="" ondown=""/>
 				</row>
@@ -70,7 +70,7 @@
 					<button text="" onup="" ondown=""/>
 				</row>
 			</grid>
-			<grid weight="4">										<!--MID UFC-->
+			<grid weight="3">										<!--MID UFC-->
 				<row>
 					<button text="" onup="" ondown=""/>
 					<button text="" onup="" ondown=""/>
