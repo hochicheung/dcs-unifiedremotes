@@ -1,17 +1,5 @@
 <?xml version ="1.0" encoding="UTF-8"?>
 <layout>
-	<row weight="1">												<!--TOP MFCD-->
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown="" color="#303030"/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown="" color="#303030"/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-	</row>
 	<grid weight="1">												<!--LEFT MFCD-->
 		<row>
 			<button text="" onup="" ondown=""/>
@@ -35,6 +23,18 @@
 		</row>
 	</grid>
 	<grid weight="8">												<!--Mid section-->
+		<row weight="1">												<!--TOP MFCD-->
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</row>
 		<row weight="8">												<!--UFC + ODU-->
 			<grid weight="2">										<!--ODU-->
 				<row>
@@ -126,6 +126,18 @@
 				</row>
 			</grid>
 		</row>
+		<row weight="1">												<!--BOTTOM MFCD-->
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</row>
 	</grid>
 	<grid>												<!--RIGHT MFCD-->
 		<row>
@@ -149,16 +161,4 @@
 			<button text="" onup="" ondown=""/>
 		</row>
 	</grid>
-	<row weight="1">												<!--BOTTOM MFCD-->
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown="" color="#303030"/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown="" color="#303030"/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-	</row>
 </layout>
