@@ -486,7 +486,7 @@ actions.down_digit39 = function ()
 	 kb.down("ralt", "ctrl", "shift", "digit9")
 end
 
--- Function 1-24 (24)
+-- Function 1-36 (36)
 actions.up_f1 = function ()
 	 kb.up("ralt", "f1")
 end
@@ -630,6 +630,78 @@ actions.up_f24 = function ()
 end
 actions.down_f24 = function ()
 	 kb.down("ralt", "shift", "f12")
+end
+actions.up_f25 = function ()
+	 kb.up("ralt", "shift", "ctrl", "f1")
+end
+actions.down_f25 = function ()
+	 kb.down("ralt", "shift", "ctrl", "f1")
+end
+actions.up_f26 = function ()
+	 kb.up("ralt", "shift", "ctrl", "f2")
+end
+actions.down_f26 = function ()
+	 kb.down("ralt", "shift", "ctrl", "f2")
+end
+actions.up_f27 = function ()
+	 kb.up("ralt", "shift", "ctrl", "f3")
+end
+actions.down_f27 = function ()
+	 kb.down("ralt", "shift", "ctrl", "f3")
+end
+actions.up_f28 = function ()
+	 kb.up("ralt", "shift", "ctrl", "f4")
+end
+actions.down_f28 = function ()
+	 kb.down("ralt", "shift", "ctrl", "f4")
+end
+actions.up_f29 = function ()
+	 kb.up("ralt", "shift", "ctrl", "f5")
+end
+actions.down_f29 = function ()
+	 kb.down("ralt", "shift", "ctrl", "f5")
+end
+actions.up_f30 = function ()
+	 kb.up("ralt", "shift", "ctrl", "f6")
+end
+actions.down_f30 = function ()
+	 kb.down("ralt", "shift", "ctrl", "f6")
+end
+actions.up_f31 = function ()
+	 kb.up("ralt", "shift", "ctrl", "f7")
+end
+actions.down_f31 = function ()
+	 kb.down("ralt", "shift", "ctrl", "f7")
+end
+actions.up_f32 = function ()
+	 kb.up("ralt", "shift", "ctrl", "f8")
+end
+actions.down_f32 = function ()
+	 kb.down("ralt", "shift", "ctrl", "f8")
+end
+actions.up_f33 = function ()
+	 kb.up("ralt", "shift", "ctrl", "f9")
+end
+actions.down_f33 = function ()
+	 kb.down("ralt", "shift", "ctrl", "f9")
+end
+actions.up_f34 = function ()
+	 kb.up("ralt", "shift", "ctrl", "f10")
+end
+actions.down_f34 = function ()
+	 kb.down("ralt", "shift", "ctrl", "f10")
+end
+actions.up_f35 = function ()
+	 kb.up("ralt", "shift", "ctrl", "f11")
+end
+actions.down_f35 = function ()
+	 kb.down("ralt", "shift", "ctrl", "f11")
+end
+actions.up_f36 = function ()
+	 kb.up("ralt", "shift", "ctrl", "f12")
+end
+actions.down_f36 = function ()
+	 kb.down("ralt", "shift", "ctrl", "f12")
 end
 
 -- Alphabetic 26x2 (52)
@@ -946,7 +1018,7 @@ actions.down_Z = function ()
 	 kb.down("ralt", "shift", "z")
 end
 
--- Keypad Function
+-- Keypad Function (6)
 actions.up_mult = function ()
 	 kb.up("ralt", "nummultiply")
 end
@@ -984,7 +1056,7 @@ actions.down_sep = function ()
 	 kb.down("ralt", "numseparator")
 end
 
--- Keyboard Nav
+-- Keyboard Nav (14)
 actions.up_left = function ()
 	 kb.up("ralt", "left")
 end
