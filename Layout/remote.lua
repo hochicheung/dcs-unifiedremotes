@@ -560,7 +560,7 @@ actions.down_f12 = function ()
 	 kb.down("ralt", "f12")
 end
 actions.up_f13 = function ()
-	 kb.up("ralt", "shift" "f1")
+	 kb.up("ralt", "shift", "f1")
 end
 actions.down_f13 = function ()
 	 kb.down("ralt", "shift", "f1")
