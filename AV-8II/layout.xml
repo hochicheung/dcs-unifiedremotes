@@ -42,7 +42,7 @@
 		</grid>
 		<grid weight="8">												<!--Mid section-->
 			<row weight="8">												<!--UFC + ODU-->
-				<grid weight="1">										<!--ODU-->
+				<grid weight="4">										<!--ODU-->
 					<row>
 						<button text="" onup="" ondown=""/>
 					</row>
@@ -59,7 +59,7 @@
 						<button text="" onup="" ondown="" color="#303030"/>
 					</row>
 				</grid>
-				<grid weight="1">										<!--LEFT UFC-->
+				<grid weight="3">										<!--LEFT UFC-->
 					<row>
 						<button text="" onup="" ondown=""/>
 					</row>
@@ -76,7 +76,7 @@
 						<button text="" onup="" ondown=""/>
 					</row>
 				</grid>
-				<grid weight="4">										<!--MID UFC-->
+				<grid weight="14">										<!--MID UFC-->
 					<row>
 						<button text="" onup="" ondown=""/>
 						<button text="" onup="" ondown=""/>
@@ -114,7 +114,7 @@
 						<button text="" onup="" ondown=""/>
 					</row>
 				</grid>
-				<grid weight="1">										<!--RIGHT UFC-->
+				<grid weight="3">										<!--RIGHT UFC-->
 					<row>
 						<button text="" onup="" ondown=""/>
 					</row>
