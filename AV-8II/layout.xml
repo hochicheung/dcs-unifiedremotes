@@ -1,7 +1,7 @@
 <?xml version ="1.0" encoding="UTF-8"?>
 <layout>
 	<row weight="1">												<!--TOP MFCD-->
-		<grid weight="5">
+		<grid weight="10">
 			<button text="" onup="" ondown=""/>
 			<button text="" onup="" ondown=""/>
 			<button text="" onup="" ondown="" color="#303030"/>
@@ -9,7 +9,7 @@
 			<button text="" onup="" ondown=""/>
 		</grid>
 		<space weight="1"/>
-		<grid weight="5">
+		<grid weight="10">
 			<button text="" onup="" ondown=""/>
 			<button text="" onup="" ondown=""/>
 			<button text="" onup="" ondown="" color="#303030"/>
@@ -157,7 +157,7 @@
 		</grid>
 	</row>
 	<row weight="1">												<!--BOTTOM MFCD-->
-		<grid weight="5">
+		<grid weight="10">
 			<button text="" onup="" ondown=""/>
 			<button text="" onup="" ondown=""/>
 			<button text="" onup="" ondown="" color="#303030"/>
@@ -165,7 +165,7 @@
 			<button text="" onup="" ondown=""/>
 		</grid>
 		<space weight="1"/>
-		<grid weight="5">
+		<grid weight="10">
 			<button text="" onup="" ondown=""/>
 			<button text="" onup="" ondown=""/>
 			<button text="" onup="" ondown="" color="#303030"/>
