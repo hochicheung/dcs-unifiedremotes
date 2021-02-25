@@ -2,7 +2,7 @@
 
 local kb = require("keyboard");
 
--- Numpad 0-29 (30)
+-- Numpad 0-39 (40)
 actions.up_num0 = function ()
 	 kb.up("ralt", "num0")
 end
@@ -183,8 +183,68 @@ end
 actions.down_num29 = function ()
 	 kb.down("ralt", "ctrl", "num9")
 end
+actions.up_num30 = function ()
+	 kb.up("ralt", "ctrl", "shift", "num0")
+end
+actions.down_num30 = function ()
+	 kb.down("ralt", "ctrl", "shift", "num0")
+end
+actions.up_num31 = function ()
+	 kb.up("ralt", "ctrl", "shift", "num1")
+end
+actions.down_num31 = function ()
+	 kb.down("ralt", "ctrl", "shift", "num1")
+end
+actions.up_num32 = function ()
+	 kb.up("ralt", "ctrl", "shift", "num2")
+end
+actions.down_num32 = function ()
+	 kb.down("ralt", "ctrl", "shift", "num2")
+end
+actions.up_num33 = function ()
+	 kb.up("ralt", "ctrl", "shift", "num3")
+end
+actions.down_num33 = function ()
+	 kb.down("ralt", "ctrl", "shift", "num3")
+end
+actions.up_num34 = function ()
+	 kb.up("ralt", "ctrl", "shift", "num4")
+end
+actions.down_num34 = function ()
+	 kb.down("ralt", "ctrl", "shift", "num4")
+end
+actions.up_num35 = function ()
+	 kb.up("ralt", "ctrl", "shift", "num5")
+end
+actions.down_num35 = function ()
+	 kb.down("ralt", "ctrl", "shift", "num5")
+end
+actions.up_num36 = function ()
+	 kb.up("ralt", "ctrl", "shift", "num6")
+end
+actions.down_num36 = function ()
+	 kb.down("ralt", "ctrl", "shift", "num6")
+end
+actions.up_num37 = function ()
+	 kb.up("ralt", "ctrl", "shift", "num7")
+end
+actions.down_num37 = function ()
+	 kb.down("ralt", "ctrl", "shift", "num7")
+end
+actions.up_num38 = function ()
+	 kb.up("ralt", "ctrl", "shift", "num8")
+end
+actions.down_num38 = function ()
+	 kb.down("ralt", "ctrl", "shift", "num8")
+end
+actions.up_num39 = function ()
+	 kb.up("ralt", "ctrl", "shift", "num9")
+end
+actions.down_num39 = function ()
+	 kb.down("ralt", "ctrl", "shift", "num9")
+end
 
--- Digit 0-29 (30)
+-- Digit 0-39 (40)
 actions.up_digit0 = function ()
 	 kb.up("ralt", "digit0")
 end
@@ -364,6 +424,66 @@ actions.up_digit29 = function ()
 end
 actions.down_digit29 = function ()
 	 kb.down("ralt", "ctrl", "digit9")
+end
+actions.up_digit30 = function ()
+	 kb.up("ralt", "ctrl", "shift", "digit0")
+end
+actions.down_digit30 = function ()
+	 kb.down("ralt", "ctrl", "shift", "digit0")
+end
+actions.up_digit31 = function ()
+	 kb.up("ralt", "ctrl", "shift", "digit1")
+end
+actions.down_digit31 = function ()
+	 kb.down("ralt", "ctrl", "shift", "digit1")
+end
+actions.up_digit32 = function ()
+	 kb.up("ralt", "ctrl", "shift", "digit2")
+end
+actions.down_digit32 = function ()
+	 kb.down("ralt", "ctrl", "shift", "digit2")
+end
+actions.up_digit33 = function ()
+	 kb.up("ralt", "ctrl", "shift", "digit3")
+end
+actions.down_digit33 = function ()
+	 kb.down("ralt", "ctrl", "shift", "digit3")
+end
+actions.up_digit34 = function ()
+	 kb.up("ralt", "ctrl", "shift", "digit4")
+end
+actions.down_digit34 = function ()
+	 kb.down("ralt", "ctrl", "shift", "digit4")
+end
+actions.up_digit35 = function ()
+	 kb.up("ralt", "ctrl", "shift", "digit5")
+end
+actions.down_digit35 = function ()
+	 kb.down("ralt", "ctrl", "shift", "digit5")
+end
+actions.up_digit36 = function ()
+	 kb.up("ralt", "ctrl", "shift", "digit6")
+end
+actions.down_digit36 = function ()
+	 kb.down("ralt", "ctrl", "shift", "digit6")
+end
+actions.up_digit37 = function ()
+	 kb.up("ralt", "ctrl", "shift", "digit7")
+end
+actions.down_digit37 = function ()
+	 kb.down("ralt", "ctrl", "shift", "digit7")
+end
+actions.up_digit38 = function ()
+	 kb.up("ralt", "ctrl", "shift", "digit8")
+end
+actions.down_digit38 = function ()
+	 kb.down("ralt", "ctrl", "shift", "digit8")
+end
+actions.up_digit39 = function ()
+	 kb.up("ralt", "ctrl", "shift", "digit9")
+end
+actions.down_digit39 = function ()
+	 kb.down("ralt", "ctrl", "shift", "digit9")
 end
 
 -- Function 1-24 (24)
