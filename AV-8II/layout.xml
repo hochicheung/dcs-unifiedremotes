@@ -2,175 +2,175 @@
 <layout>
 	<row weight="1">												<!--TOP MFCD-->
 		<grid weight="10">
-			<button text="|" onup="" ondown=""/>
-			<button text="|" onup="" ondown=""/>
-			<button text="|" onup="" ondown="" color="#303030"/>
-			<button text="|" onup="" ondown=""/>
-			<button text="|" onup="" ondown=""/>
+			<button text="|" onup="up_digit0" ondown="down_digit0"/>
+			<button text="|" onup="up_digit1" ondown="down_digit1"/>
+			<button text="|" onup="up_digit2" ondown="down_digit2" color="#303030"/>
+			<button text="|" onup="up_digit3" ondown="down_digit3"/>
+			<button text="|" onup="up_digit4" ondown="down_digit4"/>
 		</grid>
 		<space weight="1"/>
 		<grid weight="10">
-			<button text="|" onup="" ondown=""/>
-			<button text="|" onup="" ondown=""/>
-			<button text="|" onup="" ondown="" color="#303030"/>
-			<button text="|" onup="" ondown=""/>
-			<button text="|" onup="" ondown=""/>
+			<button text="|" onup="up_digit5" ondown="down_digit5"/>
+			<button text="|" onup="up_digit6" ondown="down_digit6"/>
+			<button text="|" onup="up_digit7" ondown="down_digit7" color="#303030"/>
+			<button text="|" onup="up_digit8" ondown="down_digit8"/>
+			<button text="|" onup="up_digit9" ondown="down_digit9"/>
 		</grid>
 	</row>
 	<row weight="8">
 		<grid weight="1">												<!--LEFT MFCD-->
 			<row>
-				<button text="―" onup="" ondown=""/>
-				<button text="―" onup="" ondown=""/>
+				<button text="―" onup="up_digit10" ondown="down_digit10"/>
+				<button text="―" onup="up_digit11" ondown="down_digit11"/>
 			</row>
 			<row>
-				<button text="―" onup="" ondown=""/>
-				<button text="―" onup="" ondown=""/>
+				<button text="―" onup="up_digit12" ondown="down_digit12"/>
+				<button text="―" onup="up_digit13" ondown="down_digit13"/>
 			</row>
 			<row>
-				<button text="―" onup="" ondown="" color="#303030"/>
-				<button text="―" onup="" ondown="" color="#303030"/>
+				<button text="―" onup="up_digit14" ondown="down_digit14" color="#303030"/>
+				<button text="―" onup="up_digit15" ondown="down_digit15" color="#303030"/>
 			</row>
 			<row>
-				<button text="―" onup="" ondown=""/>
-				<button text="―" onup="" ondown=""/>
+				<button text="―" onup="up_digit16" ondown="down_digit16"/>
+				<button text="―" onup="up_digit17" ondown="down_digit17"/>
 			</row>
 			<row>
-				<button text="―" onup="" ondown=""/>
-				<button text="―" onup="" ondown=""/>
+				<button text="―" onup="up_digit18" ondown="down_digit18"/>
+				<button text="―" onup="up_digit19" ondown="down_digit19"/>
 			</row>
 		</grid>
 		<grid weight="8">												<!--Mid section-->
 			<row weight="8">												<!--UFC + ODU-->
 				<grid weight="4">										<!--ODU-->
 					<row>
-						<button text="○" onup="" ondown=""/>
+						<button text="○" onup="up_f11" ondown="down_f11"/>
 					</row>
 					<row>
-						<button text="○" onup="" ondown=""/>
+						<button text="○" onup="up_f12" ondown="down_f12"/>
 					</row>
 					<row>
-						<button text="○" onup="" ondown=""/>
+						<button text="○" onup="up_f13" ondown="down_f13"/>
 					</row>
 					<row>
-						<button text="○" onup="" ondown="" color="#303030"/>
+						<button text="○" onup="up_f14" ondown="down_f14" color="#303030"/>
 					</row>
 					<row>
-						<button text="○" onup="" ondown="" color="#303030"/>
+						<button text="○" onup="up_f15" ondown="down_f15" color="#303030"/>
 					</row>
 				</grid>
 				<grid weight="3">										<!--LEFT UFC-->
 					<row>
-						<button text="TMR" onup="" ondown=""/>
+						<button text="TMR" onup="up_f16" ondown="down_f16"/>
 					</row>
 					<row>
-						<button text="TOO" onup="" ondown=""/>
+						<button text="TOO" onup="up_f17" ondown="down_f17"/>
 					</row>
 					<row>
-						<button text="I/P" onup="" ondown=""/>
+						<button text="I/P" onup="up_f18" ondown="down_f18"/>
 					</row>
 					<row>
-						<button text="COM1↑" onup="" ondown=""/>
+						<button text="COM1↑" onup="up_f19" ondown="down_f19"/>
 					</row>
 					<row>
-						<button text="COM1↓" onup="" ondown=""/>
+						<button text="COM1↓" onup="up_f20" ondown="down_f20"/>
 					</row>
 				</grid>
 				<grid weight="14">										<!--MID UFC-->
 					<row>
-						<button text="1" onup="" ondown=""/>
-						<button text="2" onup="" ondown=""/>
-						<button text="3" onup="" ondown=""/>
-						<button text="CLR" onup="" ondown=""/>
+						<button text="1" onup="up_num1" ondown="down_num1"/>
+						<button text="2" onup="up_num2" ondown="down_num2"/>
+						<button text="3" onup="up_num3" ondown="down_num3"/>
+						<button text="CLR" onup="up_num10" ondown="down_num10"/>
 					</row>
 					<row>
-						<button text="4" onup="" ondown=""/>
-						<button text="5" onup="" ondown=""/>
-						<button text="6" onup="" ondown=""/>
-						<button text="SVE" onup="" ondown=""/>
+						<button text="4" onup="up_num4" ondown="down_num4"/>
+						<button text="5" onup="up_num5" ondown="down_num5"/>
+						<button text="6" onup="up_num6" ondown="down_num6"/>
+						<button text="SVE" onup="up_num11" ondown="down_num11"/>
 					</row>
 					<row>
-						<button text="7" onup="" ondown=""/>
-						<button text="8" onup="" ondown=""/>
-						<button text="9" onup="" ondown=""/>
-						<button text="_" onup="" ondown=""/>
+						<button text="7" onup="up_num7" ondown="down_num7"/>
+						<button text="8" onup="up_num8" ondown="down_num8"/>
+						<button text="9" onup="up_num9" ondown="down_num9"/>
+						<button text="_" onup="up_num12" ondown="down_num12"/>
 					</row>
 					<row>
-						<button text="ENT" onup="" ondown=""/>
-						<button text="0" onup="" ondown=""/>
-						<button text="." onup="" ondown=""/>
-						<button text="ON OFF" onup="" ondown=""/>
+						<button text="ENT" onup="up_num13" ondown="down_num13"/>
+						<button text="0" onup="up_num0" ondown="down_num0"/>
+						<button text="." onup="up_num14" ondown="down_num14"/>
+						<button text="ON up_OFF" onup="down_num15" ondown="num15"/>
 					</row>
 					<row>
-						<button text="IFF" onup="" ondown=""/>
-						<button text="TCN" onup="" ondown=""/>
-						<button text="AWL" onup="" ondown=""/>
-						<button text="WPN" onup="" ondown=""/>
+						<button text="IFF" onup="up_num16" ondown="down_num16"/>
+						<button text="TCN" onup="up_num17" ondown="down_num17"/>
+						<button text="AWL" onup="up_num18" ondown="down_num18"/>
+						<button text="WPN" onup="up_num19" ondown="down_num19"/>
 					</row>
 					<row>
-						<button text="WOF" onup="" ondown=""/>
-						<button text="BCN" onup="" ondown=""/>
-						<button text="ALT" onup="" ondown=""/>
-						<button text="EM CON" onup="" ondown=""/>
+						<button text="WOF" onup="up_num20" ondown="down_num20"/>
+						<button text="BCN" onup="up_num21" ondown="down_num21"/>
+						<button text="ALT" onup="up_num22" ondown="down_num22"/>
+						<button text="EM up_CON" onup="down_num23" ondown="num23"/>
 					</row>
 				</grid>
 				<grid weight="3">										<!--RIGHT UFC-->
 					<row>
-						<button text="TO" onup="" ondown=""/>
+						<button text="TO" onup="up_a" ondown="down_a"/>
 					</row>
 					<row>
-						<button text="OFF" onup="" ondown=""/>
+						<button text="OFF" onup="up_b" ondown="down_b"/>
 					</row>
 					<row>
-						<button text="LDG" onup="" ondown=""/>
+						<button text="LDG" onup="up_c" ondown="down_c"/>
 					</row>
 					<row>
-						<button text="COM2↑" onup="" ondown=""/>
+						<button text="COM2↑" onup="up_d" ondown="down_d"/>
 					</row>
 					<row>
-						<button text="COM2↓" onup="" ondown=""/>
+						<button text="COM2↓" onup="up_e" ondown="down_e"/>
 					</row>
 				</grid>
 			</row>
 		</grid>
 		<grid>												<!--RIGHT MFCD-->
 			<row>
-				<button text="―" onup="" ondown=""/>
-				<button text="―" onup="" ondown=""/>
+				<button text="―" onup="up_digit20" ondown="down_digit20"/>
+				<button text="―" onup="up_digit21" ondown="down_digit21"/>
 			</row>
 			<row>
-				<button text="―" onup="" ondown=""/>
-				<button text="―" onup="" ondown=""/>
+				<button text="―" onup="up_digit22" ondown="down_digit22"/>
+				<button text="―" onup="up_digit23" ondown="down_digit23"/>
 			</row>
 			<row>
-				<button text="―" onup="" ondown="" color="#303030"/>
-				<button text="―" onup="" ondown="" color="#303030"/>
+				<button text="―" onup="up_digit24" ondown="down_digit24" color="#303030"/>
+				<button text="―" onup="up_digit25" ondown="down_digit25" color="#303030"/>
 			</row>
 			<row>
-				<button text="―" onup="" ondown=""/>
-				<button text="―" onup="" ondown=""/>
+				<button text="―" onup="up_digit26" ondown="down_digit26"/>
+				<button text="―" onup="up_digit27" ondown="down_digit27"/>
 			</row>
 			<row>
-				<button text="―" onup="" ondown=""/>
-				<button text="―" onup="" ondown=""/>
+				<button text="―" onup="up_digit28" ondown="down_digit28"/>
+				<button text="―" onup="up_digit29" ondown="down_digit29"/>
 			</row>
 		</grid>
 	</row>
 	<row weight="1">												<!--BOTTOM MFCD-->
 		<grid weight="10">
-			<button text="|" onup="" ondown=""/>
-			<button text="|" onup="" ondown=""/>
-			<button text="|" onup="" ondown="" color="#303030"/>
-			<button text="|" onup="" ondown=""/>
-			<button text="|" onup="" ondown=""/>
+			<button text="|" onup="up_f1" ondown="down_f1"/>
+			<button text="|" onup="up_f2" ondown="down_f2"/>
+			<button text="|" onup="up_f3" ondown="down_f3" color="#303030"/>
+			<button text="|" onup="up_f4" ondown="down_f4"/>
+			<button text="|" onup="up_f5" ondown="down_f5"/>
 		</grid>
 		<space weight="1"/>
 		<grid weight="10">
-			<button text="|" onup="" ondown=""/>
-			<button text="|" onup="" ondown=""/>
-			<button text="|" onup="" ondown="" color="#303030"/>
-			<button text="|" onup="" ondown=""/>
-			<button text="|" onup="" ondown=""/>
+			<button text="|" onup="up_f6" ondown="down_f6"/>
+			<button text="|" onup="up_f7" ondown="down_f7"/>
+			<button text="|" onup="up_f8" ondown="down_f8" color="#303030"/>
+			<button text="|" onup="up_f9" ondown="down_f9"/>
+			<button text="|" onup="up_f10" ondown="down_f10"/>
 		</grid>
 	</row>
 </layout>
