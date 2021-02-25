@@ -37,7 +37,7 @@
 		</grid>
 		<grid weight="8">												<!--Mid section-->
 			<row weight="8">												<!--UFC + ODU-->
-				<grid weight="2">										<!--ODU-->
+				<grid weight="1.5">										<!--ODU-->
 					<row>
 						<button text="" onup="" ondown=""/>
 					</row>
