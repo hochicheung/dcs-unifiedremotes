@@ -99,7 +99,7 @@
 						<button text="ENT" onup="up_num13" ondown="down_num13"/>
 						<button text="0" onup="up_num0" ondown="down_num0"/>
 						<button text="." onup="up_num14" ondown="down_num14"/>
-						<button text="ON up_OFF" onup="down_num15" ondown="num15"/>
+						<button text="ON OFF" onup="up_num15" ondown="down_num15"/>
 					</row>
 					<row>
 						<button text="IFF" onup="up_num16" ondown="down_num16"/>
@@ -111,7 +111,7 @@
 						<button text="WOF" onup="up_num20" ondown="down_num20"/>
 						<button text="BCN" onup="up_num21" ondown="down_num21"/>
 						<button text="ALT" onup="up_num22" ondown="down_num22"/>
-						<button text="EM up_CON" onup="down_num23" ondown="num23"/>
+						<button text="EM CON" onup="up_num23" ondown="down_num23"/>
 					</row>
 				</grid>
 				<grid weight="3">										<!--RIGHT UFC-->
