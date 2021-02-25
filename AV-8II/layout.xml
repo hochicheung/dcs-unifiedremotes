@@ -81,37 +81,37 @@
 						<button text="1" onup="" ondown=""/>
 						<button text="2" onup="" ondown=""/>
 						<button text="3" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
+						<button text="CLR" onup="" ondown=""/>
 					</row>
 					<row>
 						<button text="4" onup="" ondown=""/>
 						<button text="5" onup="" ondown=""/>
 						<button text="6" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
+						<button text="SVE" onup="" ondown=""/>
 					</row>
 					<row>
 						<button text="7" onup="" ondown=""/>
 						<button text="8" onup="" ondown=""/>
 						<button text="9" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
+						<button text="_" onup="" ondown=""/>
 					</row>
 					<row>
-						<button text="" onup="" ondown=""/>
+						<button text="ENT" onup="" ondown=""/>
 						<button text="0" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
+						<button text="." onup="" ondown=""/>
+						<button text="ON OFF" onup="" ondown=""/>
 					</row>
 					<row>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
+						<button text="IFF" onup="" ondown=""/>
+						<button text="TCN" onup="" ondown=""/>
+						<button text="AWL" onup="" ondown=""/>
+						<button text="WPN" onup="" ondown=""/>
 					</row>
 					<row>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
+						<button text="WOF" onup="" ondown=""/>
+						<button text="BCN" onup="" ondown=""/>
+						<button text="ALT" onup="" ondown=""/>
+						<button text="EM CON" onup="" ondown=""/>
 					</row>
 				</grid>
 				<grid weight="3">										<!--RIGHT UFC-->
