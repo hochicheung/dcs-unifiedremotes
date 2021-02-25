@@ -61,19 +61,19 @@
 				</grid>
 				<grid weight="3">										<!--LEFT UFC-->
 					<row>
-						<button text="" onup="" ondown=""/>
+						<button text="TMR" onup="" ondown=""/>
 					</row>
 					<row>
-						<button text="" onup="" ondown=""/>
+						<button text="TOO" onup="" ondown=""/>
 					</row>
 					<row>
-						<button text="" onup="" ondown=""/>
+						<button text="I/P" onup="" ondown=""/>
 					</row>
 					<row>
-						<button text="" onup="" ondown=""/>
+						<button text="COM1↑" onup="" ondown=""/>
 					</row>
 					<row>
-						<button text="" onup="" ondown=""/>
+						<button text="COM1↓" onup="" ondown=""/>
 					</row>
 				</grid>
 				<grid weight="14">										<!--MID UFC-->
@@ -116,19 +116,19 @@
 				</grid>
 				<grid weight="3">										<!--RIGHT UFC-->
 					<row>
-						<button text="" onup="" ondown=""/>
+						<button text="TO" onup="" ondown=""/>
 					</row>
 					<row>
-						<button text="" onup="" ondown=""/>
+						<button text="OFF" onup="" ondown=""/>
 					</row>
 					<row>
-						<button text="" onup="" ondown=""/>
+						<button text="LDG" onup="" ondown=""/>
 					</row>
 					<row>
-						<button text="" onup="" ondown=""/>
+						<button text="COM2↑" onup="" ondown=""/>
 					</row>
 					<row>
-						<button text="" onup="" ondown=""/>
+						<button text="COM2↓" onup="" ondown=""/>
 					</row>
 				</grid>
 			</row>
