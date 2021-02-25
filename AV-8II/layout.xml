@@ -70,7 +70,7 @@
 					<button text="" onup="" ondown=""/>
 				</row>
 			</grid>
-			<grid weight="3">										<!--MID UFC-->
+			<grid weight="5">										<!--MID UFC-->
 				<row>
 					<button text="" onup="" ondown=""/>
 					<button text="" onup="" ondown=""/>
