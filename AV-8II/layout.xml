@@ -78,26 +78,26 @@
 				</grid>
 				<grid weight="14">										<!--MID UFC-->
 					<row>
+						<button text="1" onup="" ondown=""/>
+						<button text="2" onup="" ondown=""/>
+						<button text="3" onup="" ondown=""/>
 						<button text="" onup="" ondown=""/>
+					</row>
+					<row>
+						<button text="4" onup="" ondown=""/>
+						<button text="5" onup="" ondown=""/>
+						<button text="6" onup="" ondown=""/>
 						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
+					</row>
+					<row>
+						<button text="7" onup="" ondown=""/>
+						<button text="8" onup="" ondown=""/>
+						<button text="9" onup="" ondown=""/>
 						<button text="" onup="" ondown=""/>
 					</row>
 					<row>
 						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
-					</row>
-					<row>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
-					</row>
-					<row>
-						<button text="" onup="" ondown=""/>
-						<button text="" onup="" ondown=""/>
+						<button text="0" onup="" ondown=""/>
 						<button text="" onup="" ondown=""/>
 						<button text="" onup="" ondown=""/>
 					</row>
