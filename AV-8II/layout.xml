@@ -12,7 +12,7 @@
 		<button text="" onup="" ondown=""/>
 		<button text="" onup="" ondown=""/>
 	</row>
-	<row>
+	<row weight="8">
 		<grid weight="1">												<!--LEFT MFCD-->
 			<row>
 				<button text="" onup="" ondown=""/>
