@@ -1,16 +1,21 @@
 <?xml version ="1.0" encoding="UTF-8"?>
 <layout>
 	<row weight="1">												<!--TOP MFCD-->
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown="" color="#303030"/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown="" color="#303030"/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
+		<grid>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</grid>
+		<space />
+		<grid>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</grid>
 	</row>
 	<row weight="8">
 		<grid weight="1">												<!--LEFT MFCD-->
@@ -152,15 +157,20 @@
 		</grid>
 	</row>
 	<row weight="1">												<!--BOTTOM MFCD-->
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown="" color="#303030"/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown="" color="#303030"/>
-		<button text="" onup="" ondown=""/>
-		<button text="" onup="" ondown=""/>
+		<grid>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</grid>
+		<space />
+		<grid>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown="" color="#303030"/>
+			<button text="" onup="" ondown=""/>
+			<button text="" onup="" ondown=""/>
+		</grid>
 	</row>
 </layout>
